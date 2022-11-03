@@ -62,7 +62,7 @@ p {
 }
 body {
   width: 100%;
-  background-image: url(lan.jpg);
+  background-image: url(/images/lan.jpg);
   height: 100%;
 }
 h3 {
