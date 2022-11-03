@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="Stylesheet" type="text/css" href="style.Css" />
+    <title>My page</title>
+  </head>
+  <body>
+    <div id="full">
+      <div class="div-1">
+        <h1>Hello there!</h1>
+      </div>
+      <h2>
+        <p>This is xinming Lin.</p>
+      </h2>
+      <h3>
+        <p>
+          I come from China.And now I am a current student of Jönköping
+          university.
+        </p>
+        <br />
+        <p>
+          The reason I choose New Media Design as my major is because of I have
+          interest in Graphic desigh and layout.
+        </p>
+        <p>
+          Now I feel like:I love the design profession so much, because it makes
+          me feel like I'm catching up with the process of life.
+        </p>
+      </h3>
+      <br />
+      <h2><p>About my hobbie:</p></h2>
+      <h3>
+        <p>I have interest in video games, and I watch anime as will.</p>
+        <p>
+          But the what I like most, is sleep. My wish is sleep until the end of
+          the world.
+        </p>
+      </h3>
+      <br />
+      <div class="div-2">
+        <h1>If you want to know more:</h1>
+      </div>
+      <h2>These games are the games I like most.</h2>
+      <h4>
+        <p>Monster hunter</p>
+        <img src="images/M&H.jpg.jpg" alt="Monster Hunter" />
+        <hr />
+        <br />
+        <p>Library of Ruina</p>
+        <img src="images/LOR.jpg.jpg" alt="Library of Ruina" />
+        <hr />
+        <br />
+        <p>Hades</p>
+        <img src="images/hades.jpg.jpg" alt="Hades" />
+        <hr />
+        <br />
+        <p>Also some mobile games.</p>
+        <img src="images/FGO.jpg.png" alt="Fate grand order" />
+        <img src="images/F7.jpg.png" alt="Enternity city" />
+        <img src="images/BS.jpg.png" alt="Brawl Stars" />
+      </h4>
+      <a href="/about jonkoping/jonkoping.html">
+        And here is shome thing about Jonkoping.
+      </a>
+      <br />
+      <div class="div-3">
+        <h5>That's all I want to present!Thank you for watching!</h5>
+      </div>
+    </div>
+  </body>
+</html>
