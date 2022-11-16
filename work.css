@@ -1,0 +1,94 @@
+.header {
+  background-color: rgb(170, 170, 170);
+  grid-column: span 4 / auto;
+  text-align: center;
+  font-size: 20px;
+  color: ghostwhite;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.asider {
+  background-color: rgb(160, 173, 185);
+  height: 1300px;
+}
+.content {
+  background-color: rgb(255, 255, 255);
+  grid-column: span 3 / auto;
+}
+.footer {
+  background-color: rgb(119, 119, 119);
+  grid-column: span 4 / auto;
+  grid-row: span 1 / auto;
+  color: ghostwhite;
+  text-align: center;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  max-height: 1365px;
+  max-width: 2000px;
+  border-style: none;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: aliceblue;
+}
+img {
+  max-width: 400px;
+  padding-left: 150px;
+}
+li {
+  font-size: 40px;
+  margin-left: 30px;
+  color: rgb(110, 113, 121);
+  background-color: rgb(187, 187, 187);
+}
+@media screen and (min-width: 440px) and (max-width: 1300px) {
+  body {
+    background-color: rgb(113, 119, 124);
+    margin: 0px;
+    padding: 0px;
+    max-height: 2532px;
+    max-width: 1170px;
+    min-height: 1000px;
+    min-width: 400px;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: rgb(113, 119, 124);
+  }
+  li {
+    font-size: 40px;
+    margin-left: 0%;
+    color: rgb(110, 113, 121);
+    background-color: rgb(228, 228, 228);
+    text-align: center;
+  }
+  .header {
+    background-color: rgb(63, 84, 97);
+    grid-column: span 4 / auto;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(218, 218, 238);
+  }
+  .footer {
+    background-color: rgb(55, 52, 59);
+    grid-column: span 4 / auto;
+    grid-row: span 1 / auto;
+    color: ghostwhite;
+    text-align: center;
+  }
+  .asider {
+    background-color: rgb(146, 152, 158);
+    height: 2265px;
+    width: 400px;
+  }
+  img {
+    max-width: 400px;
+    padding-left: 150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}
