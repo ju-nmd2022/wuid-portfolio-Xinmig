@@ -15,6 +15,8 @@
 }
 
 .myname {
+  margin-left: 450px;
+  font-size: 35px;
   animation-name: forname;
   animation-duration: 4s;
   animation-timing-function: ease-in-out;
@@ -25,6 +27,7 @@
 
 h1 {
   font-size: 50px;
+  text-align: center;
 }
 
 .name {
@@ -32,39 +35,43 @@ h1 {
 }
 
 p {
-  font-size: 20px;
-}
-
-@keyframes headline {
-  0% {
-    background-color: #add9d8;
-  }
-  20% {
-    background-color: #6cc5be;
-  }
-  40% {
-    background-color: #73c7da;
-  }
-  60% {
-    background-color: #76b2d8;
-  }
-  80% {
-    background-color: #67859c;
-  }
-  100% {
-    background-color: #add9d8;
-  }
+  margin-left: 450px;
+  font-size: 25px;
 }
 
 @keyframes forname {
   0% {
-    transform: scale(1);
+    color: #add9d8;
   }
-  50% {
-    transform: scale(1.5);
+  20% {
+    color: #6cc5be;
+  }
+  40% {
+    color: #73c7da;
+  }
+  60% {
+    color: #76b2d8;
+  }
+  80% {
+    color: #67859c;
   }
   100% {
-    transform: scale(1);
+    color: #add9d8;
+  }
+}
+
+@keyframes headline {
+  0% {
+    background-image: url(/sky2.jpg);
+    width: 100%;
+  }
+  50% {
+    background-image: url(/cloud2.jpg);
+    width: 100%;
+  }
+  100% {
+    background-image: url(/top2.jpg);
+    width: 100%;
   }
 }
 
@@ -126,6 +133,9 @@ li {
     width: 50px;
     font-size: 10px;
   }
+  .info {
+    margin-left: 5px;
+  }
 }
 @media screen and (min-width: 400px) and (max-width: 768px) {
   img {
@@ -135,5 +145,13 @@ li {
   .asider {
     height: 1500px;
     width: 180px;
+  }
+
+  .myname {
+    margin-left: 30px;
+  }
+
+  p {
+    margin-left: 30px;
   }
 }
