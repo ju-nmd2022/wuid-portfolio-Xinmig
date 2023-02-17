@@ -62,15 +62,15 @@ p {
 
 @keyframes headline {
   0% {
-    background-image: url(/sky2.jpg);
+    background-image: url(sky2.jpg);
     width: 100%;
   }
   50% {
-    background-image: url(/cloud2.jpg);
+    background-image: url(cloud2.jpg);
     width: 100%;
   }
   100% {
-    background-image: url(/top2.jpg);
+    background-image: url(top2.jpg);
     width: 100%;
   }
 }
